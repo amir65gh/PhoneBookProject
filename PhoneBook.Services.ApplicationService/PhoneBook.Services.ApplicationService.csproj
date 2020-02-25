@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PhoneBook.Domain.Contract\PhoneBook.Domain.Contract.csproj" />
+    <ProjectReference Include="..\PhoneBook.Domain.Core\PhoneBook.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
